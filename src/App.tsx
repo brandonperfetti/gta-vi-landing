@@ -6,6 +6,7 @@ import Hero from './sections/Hero';
 import Jason from './sections/Jason';
 import Lucia from './sections/Lucia';
 import NavBar from './sections/NavBar';
+import Outro from './sections/Outro';
 import PostCard from './sections/PostCard';
 import SecondVideo from './sections/SecondVideo';
 
@@ -22,6 +23,7 @@ const App = () => {
 			<Lucia />
 			<PostCard />
 			<FinalVideo />
+			<Outro />
 		</main>
 	);
 };
