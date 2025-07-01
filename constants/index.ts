@@ -22,7 +22,7 @@ export const useMaskSettings = () => {
 	if (isMobileM) {
 		return {
 			initialMaskPos: '50% -1500vh',
-			initialMaskSize: '3100% 3100%',
+			initialMaskSize: '3500% 3500%',
 			maskPos: '50% 7vh',
 			maskSize: '50% 50%',
 		};
@@ -31,7 +31,7 @@ export const useMaskSettings = () => {
 	if (isMobileL) {
 		return {
 			initialMaskPos: '50% -1500vh',
-			initialMaskSize: '3100% 3100%',
+			initialMaskSize: '3500% 3500%',
 			maskPos: '50% 7vh',
 			maskSize: '50% 50%',
 		};

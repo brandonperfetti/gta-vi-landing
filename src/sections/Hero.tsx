@@ -5,7 +5,7 @@ import { useMaskSettings } from '../../constants';
 import ComingSoon from './ComingSoon';
 
 const Hero = () => {
-	const { initialMaskPos, initialMaskSize, maskSize } = useMaskSettings();
+	const { initialMaskPos, initialMaskSize, maskSize, maskPos } = useMaskSettings();
 
 	useGSAP(() => {
 		gsap.set('.mask-wrapper', {
@@ -29,7 +29,7 @@ const Hero = () => {
 
 		tl.to('.fade-out', { opacity: 0, ease: 'power1.inOut' })
 			.to('.scale-out', { scale: 1, ease: 'power1.inOut' })
-			.to('.mask-wrapper', { maskSize, ease: 'power1.inOut' }, '<')
+			.to('.mask-wrapper', { maskSize, maskPosition: maskPos, ease: 'power1.inOut' }, '<')
 			.to('.mask-wrapper', { opacity: 0 })
 			.to(
 				'.overlay-logo',
@@ -58,7 +58,7 @@ const Hero = () => {
 				<img
 					src="/images/hero-bg.webp"
 					alt="background"
-					className="scale-out object-fit 4k:w-full"
+					className="scale-out 4k:object-fit 4k:w-full"
 				/>
 				<img
 					src="/images/hero-text.webp"
