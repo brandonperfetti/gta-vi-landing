@@ -54,7 +54,7 @@ const FirstVideo = () => {
 					ref={videoRef}
 					muted
 					playsInline
-					preload="auto"
+					preload="metadata"
 					src="/videos/output1.mp4"
 					className="first-vd"
 				></video>

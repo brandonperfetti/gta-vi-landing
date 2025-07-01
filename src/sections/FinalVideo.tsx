@@ -58,7 +58,7 @@ const FinalVideo = () => {
 					ref={videoRef}
 					muted
 					playsInline
-					preload="auto"
+					preload="metadata"
 					src="/videos/output3.mp4"
 					className="size-full object-cover"
 				></video>

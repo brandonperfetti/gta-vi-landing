@@ -25,7 +25,11 @@ const SecondVideo = () => {
 				if (videoRef.current) {
 					tl.to(
 						videoRef.current,
-						{ currentTime: videoRef.current.duration, duration: 3, ease: 'power1.inOut' },
+						{
+							currentTime: videoRef.current.duration,
+							duration: 3,
+							ease: 'power1.inOut',
+						},
 						'<',
 					);
 				}
@@ -40,7 +44,7 @@ const SecondVideo = () => {
 					ref={videoRef}
 					muted
 					playsInline
-					preload="auto"
+					preload="metadata"
 					src="/videos/output2.mp4"
 					className="size-full object-cover second-vd"
 					style={{
