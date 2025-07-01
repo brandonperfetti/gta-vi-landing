@@ -25,6 +25,7 @@
 	--breakpoint-sm: 40rem;
 	--breakpoint-xs: 20rem;
 	--breakpoint-3xl: 120rem;
+	--breakpoint-4k: 160rem;
 }
 
 body {

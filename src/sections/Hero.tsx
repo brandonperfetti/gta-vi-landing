@@ -55,8 +55,16 @@ const Hero = () => {
 	return (
 		<section className="hero-section">
 			<div className="size-full mask-wrapper">
-				<img src="/images/hero-bg.webp" alt="background" className="scale-out" />
-				<img src="/images/hero-text.webp" alt="hero-logo" className="title-logo fade-out" />
+				<img
+					src="/images/hero-bg.webp"
+					alt="background"
+					className="scale-out object-fit 4k:w-full"
+				/>
+				<img
+					src="/images/hero-text.webp"
+					alt="hero-logo"
+					className="title-logo fade-out 4k:w-full"
+				/>
 				<img
 					src="/images/watch-trailer.png"
 					alt="trailer"
