@@ -22,16 +22,22 @@ export const useMaskSettings = () => {
 	if (isMobileM) {
 		return {
 			initialMaskPos: '50% -1500vh',
-			initialMaskSize: '3500% 3500%',
+			initialMaskSize: '3655% 3655%',
 			maskPos: '50% 7vh',
 			maskSize: '50% 50%',
 		};
 	}
 
 	if (isMobileL) {
+		// return {
+		// 	initialMaskPos: '50% -1500vh',
+		// 	initialMaskSize: '3500% 3500%',
+		// 	maskPos: '50% 7vh',
+		// 	maskSize: '50% 50%',
+		// };
 		return {
 			initialMaskPos: '50% -1500vh',
-			initialMaskSize: '3500% 3500%',
+			initialMaskSize: '3100% 3100%',
 			maskPos: '50% 7vh',
 			maskSize: '50% 50%',
 		};
